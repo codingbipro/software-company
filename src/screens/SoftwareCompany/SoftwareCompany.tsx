@@ -132,7 +132,7 @@ export const SoftwareCompany = (): JSX.Element => {
                 />
               </a>
               <div className="absolute top-4 left-[48px] md:top-5 md:left-[60px] lg:top-6 lg:left-[73px] [font-family:'Inspiration',Helvetica] font-normal text-black text-lg md:text-xl lg:text-2xl tracking-[0] leading-normal whitespace-nowrap">
-                Ik developers
+                codingbipro
               </div>
             </div>
 
@@ -141,10 +141,10 @@ export const SoftwareCompany = (): JSX.Element => {
                 {navItems.map((item, index) => (
                   <NavigationMenuItem key={index}>
                     <a
-                      href={item === 'Brand logo' || item === 'Ik developers' ? '#' : `#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                      href={item === 'Brand logo' || item === 'codingbipro' ? '#' : `#${item.toLowerCase().replace(/\s+/g, '-')}`}
                       className="inline-flex items-center gap-2.5 relative flex-[0_0_auto]"
                       onClick={(e) => {
-                        if (item === 'Brand logo' || item === 'Ik developers') {
+                        if (item === 'Brand logo' || item === 'codingbipro') {
                           e.preventDefault();
                           window.scrollTo({ top: 0, behavior: 'smooth' });
                         } else {
@@ -718,7 +718,7 @@ export const SoftwareCompany = (): JSX.Element => {
           <div className="relative">
             <FooterSection />
             <div className="absolute w-[98px] top-[43px] left-[100px] md:left-[120px] lg:left-[142px] [font-family:'Inspiration',Helvetica] font-normal text-black text-sm md:text-base tracking-[0] leading-[normal] whitespace-nowrap">
-              Ik developers
+              codingbipro
             </div>
           </div>
           </footer>

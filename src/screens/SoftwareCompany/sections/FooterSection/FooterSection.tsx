@@ -109,7 +109,7 @@ export const FooterSection = (): JSX.Element => {
         <Separator className="w-full h-px" />
         <div className="flex justify-center mt-4 md:mt-6 lg:mt-8 px-4">
           <p className="font-footer-footer-sm text-graygray-700 text-xs md:text-sm lg:text-[length:var(--footer-footer-sm-font-size)] tracking-[var(--footer-footer-sm-letter-spacing)] leading-[var(--footer-footer-sm-line-height)] text-center">
-            © 2023 Copyright by IK Developers. All rights reserved.
+            © 2025 Copyright by <a className="underline text-blue-400 href font-bold" href="https://codingbipro.netlify.app">codingbipro</a> All rights reserved.
           </p>
         </div>
       </div>
